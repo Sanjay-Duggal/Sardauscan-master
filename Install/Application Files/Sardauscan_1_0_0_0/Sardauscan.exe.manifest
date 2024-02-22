@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Sardauscan.exe" version="1.0.0.0" publicKeyToken="1e27534bd6747749" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Sardauscan" version="0.0.0.3" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Sardauscan.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Camera_NET.dll" size="49152">
+      <assemblyIdentity name="Camera_NET" version="1.1.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NS5p91PjQpEV5S0ZMf76nMDyjL+29RRCTY+O/Fx9q94=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DirectShowLib-2010.dll" size="417792">
+      <assemblyIdentity name="DirectShowLib-2010" version="2.1.0.0" publicKeyToken="67E7B740CDFC2D3F" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>BhsyePKYTsTfydI0CcamWd/a+H2y02MwBgJiMcVTl00=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OpenTK.dll" size="4004352">
+      <assemblyIdentity name="OpenTK" version="1.1.0.0" publicKeyToken="BAD199FE84EB3DF4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/Xy1/AFqFcYZr+XREbfTskOrohDDK+J56AtyqjKQqKo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OpenTK.GLControl.dll" size="49152">
+      <assemblyIdentity name="OpenTK.GLControl" version="1.1.0.0" publicKeyToken="BAD199FE84EB3DF4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CAAqlkqVR6gaZ5SY9bEBAfpJJW5hqULOKLK3On3Udp8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sardauscan.exe" size="1111488">
+      <assemblyIdentity name="Sardauscan" version="0.0.0.3" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>aNaYDOu0mBOgeEkCFvRK1y15ea+kToXw1A8+hDwW27U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Resources\OPENGL.xml" size="5253" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>89pF/Q5hdk7NPwyZuh0hxChRpAd8DORUO+Vu/XAVCFA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sardauscan.exe.config" size="144">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qocYo5fZcjYk+qYJrTWRjTvg6tHQ3KyuT2t4J5bZJ/E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="TODO.txt" size="266">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KDM45m4UIyAqDVFmCsklSRDuSI8KplAHnbnBlv1QJY8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=JUST-LAPTOP\Asus" issuerKeyHash="284b84317706794c6c26bb015a39d4f4896717f2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+26GaNju1jYLmRqofhffGbZgcsjY9WAo/v/eW9nOmSg=</DigestValue></Reference></SignedInfo><SignatureValue>uexOSgovSCLtPVA5CdxE3QHP1+Kz2g7VuJjFqvVApz+5TzsjKFqQqEzQF0gsjozJkw8L8wBa5HCZkiKn82GkskC9D9La4PPotdgzOKwOZgqgPZ0ZzGvpXBUPzLWY6ueWkjcT3MYD3LJOX/GEvx/JtGywIV9NOZjUOKJrlq20jLw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>y2GlmILVHMMQbjicuUrgdGWKRkzNYuzwGk+DY1r0uLGiR45lPBMh15YMw+ugmKs3qGdjPVi1c/9si5ceqnRtQ+/lZb746nZzMMOMlLgzOsRs1x7J00zf89DypMNLwnJPDHpz5JUqcOW6qZJ8aOsQdPq1Oh/AWt9PZ5wAZexLpdE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2899ced95bdefffe2860f5d8c87260b619df177ea81a990b36d6eed868866efb" Description="" Url=""><as:assemblyIdentity name="Sardauscan.exe" version="1.0.0.0" publicKeyToken="1e27534bd6747749" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=JUST-LAPTOP\Asus</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>cq1v6FPunS1sDVVRa9CzFGQXV3qXzrx7CxvGU+EHFkc=</DigestValue></Reference></SignedInfo><SignatureValue>tMZDxNCh5KtmVmQi5yZIiVM4bpYxU9dqeJ5g9BUKKKQfDHf25WPiu9WkLhv2Qn2nPFR0mPYLvCBEfpD3S1vRVY1eqSdTZawBYPA7EsF9JNDOWwVOinJug/kuhN1mLQRAOHuTRt8F8XYvJ6cc8K6SmFZ7HNhhUK0/BgeFZ+cvWDU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>y2GlmILVHMMQbjicuUrgdGWKRkzNYuzwGk+DY1r0uLGiR45lPBMh15YMw+ugmKs3qGdjPVi1c/9si5ceqnRtQ+/lZb746nZzMMOMlLgzOsRs1x7J00zf89DypMNLwnJPDHpz5JUqcOW6qZJ8aOsQdPq1Oh/AWt9PZ5wAZexLpdE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQFKqYBnvObKRHGmwwXIm05TANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAASgBVAFMAVAAtAEwAQQBQAFQATwBQAFwAQQBzAHUAczAeFw0yNDAyMjIxODA0NTlaFw0yNTAyMjIwMDA0NTlaMCsxKTAnBgNVBAMeIABKAFUAUwBUAC0ATABBAFAAVABPAFAAXABBAHMAdQBzMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLYaWYgtUcwxBuOJy5SuB0ZYpGTM1i7PAaT4NjWvS4saJHjmU8EyHXlgzD66CYqzeoZ2M9WLVz/2yLlx6qdG1D7+VlvvjqdnMww4yUuDM6xGzXHsnTTN/z0PKkw0vCck8MenPklSpw5bqpknxo6xB0+rU6H8Ba309nnABl7Eul0QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBALpStHOWAunvr84qgvOzxte0xH8u54nDD5mn30a3v1u1/w9eju4GTsZF2jdQoS2D5MNy6/tWVlYh/OxnCXKJb3SQHZV7F4DNTzNc/5colq8sGjwUaAff+Y4bxZJuHFM3nQ4aosa+8NXzun4kY2IPWhbP4Udd0jnUQigw8JV8u9ru</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
