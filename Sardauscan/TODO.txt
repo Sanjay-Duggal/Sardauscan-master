@@ -1,0 +1,13 @@
+﻿
+Make 2 different file for PointCloud/ mesh
+
+//COMMENT!! espacialy FAKE plugins
+
+AutoCalibration
+https://github.com/francisengelmann/FabScan/blob/master/sources/FabScanMac/FabScan3D/FSChessboardCalibration.cpp
+
+
+
+-->
+http://www.emgu.com/wiki/index.php/Main_Page
+
